@@ -1,0 +1,22 @@
+{
+  "name": "ocean-freight-rate-tracker",
+  "version": "1.0.0",
+  "description": "Ocean Freight Rate & Shipment Tracker for Sustainability Innovation Scholarship by Mr. Nilanjan Mitra Thakur",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "ocean-freight",
+    "shipment-tracker",
+    "invoice-checker",
+    "nlp-email-parser",
+    "sustainability-innovation",
+    "green-freight"
+  ],
+  "author": "Scholarship Candidate",
+  "license": "MIT"
+}
